@@ -5,13 +5,10 @@ __author__ = 'alicenguyen154'
 
 i = 1
 while i < 100:
-    print i,
-    i +=2
-    if i == 5:
-        i+=2
-    if i ==7:
-        i+=2
-    if i==93:
-        i+=2
+    if i != 5 and i != 7 and i != 93 :
+        print i,
+    i += 2
+
+
 
 

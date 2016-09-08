@@ -8,12 +8,12 @@ def kiemtrasonguyento(n):
     if n == 2:
         return True
     else:
-        limit = int(math.sqrt(n))
-        for i in range (2, limit):
+        for i in range (2, n):
             if n % i == 0:
                 return False
             else:
                 return True
+
 
 print kiemtrasonguyento(7)
 print kiemtrasonguyento(2)
